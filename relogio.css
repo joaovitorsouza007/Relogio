@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&family=Young+Serif&display=swap');
+@font-face {
+    font-family: mario;
+    src: url(Super\ Mario\ 64.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/81bb4b165684019.640b6038d133e.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: mario;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    padding: 10%;
+}
+
+#titulo{
+    margin-top: 4%;
+}
+
+h1{
+    
+    text-align: center;
+    font-size: 4rem;
+}
+
+#principal{
+
+    width: 80%;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 14%;
+    border: 2px rgb(0, 0, 0) solid;
+    box-shadow: 10px 10px 10px;
+    border-radius: 30px;
+    
+
+}
+
+#principal div{
+   
+    border: 2px solid rgb(66, 54, 54);
+    background-color: rgba(0, 255, 213, 0.356);
+    background-color: rgba(255, 255, 255, 0.767);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    width: 14vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 10%;
+    margin-left: 1%;
+    border-radius: 55px;
+    height: 10%;
+
+   
+} 
+
+#segundos{
+    padding: right 2%; ;
+}
+
+#n{
+    font-size: 30px
+}
+
+#r{
+    color: red;
+}
+
+#e{
+    color: blue;
+}
+
+.l{
+    color: yellow;
+}
+
+#o{
+    color: blue;
+}
+
+.g{
+    color: green;
+}
+
+#i{
+    color: yellow;
+}
+
+#o{
+    color: red;
+}
+
+#d{
+    color: red;
+}
+
+#t{
+    color: blue;
+}
+
+#a{
+    color: red;
+}
+
+#digital{
+    font-size: 5rem;
+    
+}
+
+.tempo{
+    display: flex;
+}
+
+@media screen and (max-width: 769px){
+    #relogio{
+        padding-bottom: 5%;
+    }
+
+    .digital{
+        font-size:3.5rem;
+    }
+
+    #principal{
+    border: 0;
+    flex-direction: column;
+    }
+
+   
+
+    #principal div{
+        width: 80%;
+        height: 20%;
+    }
+}
